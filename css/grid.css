@@ -1,0 +1,65 @@
+body {
+  padding: 2rem;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, p, ul, li, a, blockquote, cite {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+footer {
+  margin: 5rem 0 0 0;
+}
+
+section + section {
+  margin-top: 5rem;
+}
+
+cite + blockquote{
+  margin-top: 1.5rem;
+}
+
+ul li  +li{
+  padding-top: 1.5em;
+}
+
+h3{
+  margin: 0 0 2rem 0;
+}
+
+p + p{
+  margin-top: 1em;
+}
+
+small + small{
+  margin-top: 1.5em;
+}
+
+hr{
+  margin: 2rem 0;
+  background: none;
+  border: 1px solid #ededed;
+}
+
+
+.bind {
+  max-width: 520px;
+}
+.highlight-yellow{
+  background: rgb(255,250,0);
+  background: linear-gradient(148deg, rgba(255,250,0,0.5) 0%, rgba(255,250,0,0.3) 30%, rgba(255,250,0,0.2) 70%, rgba(255,250,0,0.4) 100%);
+}
+.highlight-orange{
+  background: rgb(96,255,0);
+  background: linear-gradient(148deg, rgba(96,255,0,0.5) 0%, rgba(96,255,0,0.3) 30%, rgba(96,255,0,0.2) 70%, rgba(96,255,0,0.4) 100%);
+}
+img.editorial{
+  max-width: 300px;
+  margin-bottom: 0.5rem;
+}
