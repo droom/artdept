@@ -2,6 +2,7 @@ html{
   font-size: 18px;
   line-height: 1.44em;
   font-family: 'Inter', sans-serif;
+  font-feature-settings: "case", "calt";
   font-weight: 400;
   color: black;
 
@@ -85,9 +86,9 @@ blockquote:after {
   margin-left: -0.7em;
 }
 
-.shift{
+/*.shift{
   vertical-align: text-bottom;
-}
+}*/
 
 .br-dt::before{
   content: "\a";
