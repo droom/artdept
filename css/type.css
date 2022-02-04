@@ -65,11 +65,10 @@ ul.intentions li{
 ul.intentions li:before {
     content: '\25AC';
     position: absolute;
-    margin-left: -1.6rem;
+    margin-left: -1.4rem;
     margin-top: -0.1rem;
     color: #999;
 }
-
 
 blockquote:before {
     content: '\201C';
@@ -85,10 +84,6 @@ blockquote:after {
   position: absolute;
   margin-left: -0.7em;
 }
-
-/*.shift{
-  vertical-align: text-bottom;
-}*/
 
 .br-dt::before{
   content: "\a";
