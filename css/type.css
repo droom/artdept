@@ -1,14 +1,14 @@
 html{
   font-size: 18px;
-  line-height: 1.45em;
+  line-height: 1.44em;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   color: black;
+
 }
 
 h1, h2, h3, h4, h5, p, ul, li, a, blockquote {
   font-size: 1rem;
-  /*line-height: 1.45em;*/
 }
 
 h1, h2, h3, h4, h5, h6, .bold{
@@ -46,8 +46,29 @@ a:hover {
   color: red;
 }
 
+nav ul li{
+  list-style: none;
+}
 
-/* Hanging punctuation */
+
+time{
+  font-style: normal;
+}
+
+/* Hanging or offset punctuation */
+
+ul.intentions li{
+  list-style: none;
+}
+
+ul.intentions li:before {
+    content: '\25AC';
+    position: absolute;
+    margin-left: -1.6rem;
+    margin-top: -0.1rem;
+    color: #999;
+}
+
 
 blockquote:before {
     content: '\201C';
@@ -67,6 +88,17 @@ blockquote:after {
 .shift{
   vertical-align: text-bottom;
 }
-.date{
-  font-style: normal;
+
+.br-dt::before{
+  content: "\a";
+  white-space: pre;
 }
+
+@media screen and (max-width: 450px) {
+  .br-dt::before{
+    content: "";
+  }
+}
+
+
+
