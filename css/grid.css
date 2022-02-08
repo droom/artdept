@@ -25,7 +25,7 @@ cite + blockquote{
   margin-top: 1.5rem;
 }
 
-ul li  +li{
+ul.intentions li  +li{
   padding-top: 1.5em;
 }
 
@@ -47,11 +47,16 @@ hr{
   border: 1px solid #ededed;
 }
 
-
 .split{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 2rem;
 }
+
+.split img{
+  max-width: 100%;
+}
+
 .align-r{
   text-align: right;
   /*justify-content: right;*/
