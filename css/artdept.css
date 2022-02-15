@@ -126,10 +126,11 @@ img.rounded{
 }
 
 .list .list-item:before {
-    content: '\25AC';
+    /*content: '\25AC';*/
+    content:url('line.svg');
     position: absolute;
-    margin-left: -1.4rem;
-    margin-top: -0.1rem;
+    margin-left: -1.45rem;
+    margin-top: -0.3rem;
     color: #999;
 }
 
