@@ -63,7 +63,7 @@ a:hover {
   max-width: 520px;
 }
 
-/* Images */
+/* Stylings */
 
 img.editorial{
   max-width: 300px;
@@ -71,6 +71,10 @@ img.editorial{
 }
 img.rounded{
   border-radius: 2%;
+}
+.cta{
+  border-top: 1px solid rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
 }
 
 /* Vertical rhythm */
@@ -83,7 +87,8 @@ img.rounded{
 }
 
 .cta{
-  margin: 5rem 0 0 0;
+  margin: 4rem 0 4rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .p + .p{
