@@ -50,13 +50,11 @@ a:hover {
 }
 
 
-
-
 .citation{
-  font-family: 'Arapey', monospace;
-  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 0.7rem;
   display: block;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .main {
