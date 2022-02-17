@@ -108,7 +108,7 @@ img.rounded{
 }
 
 .quote + .citation{
-  margin-top: .25rem;
+  margin-top: 0.1rem;
 }
 
 .list .list-item + .list-item{
