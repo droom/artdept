@@ -26,7 +26,7 @@ blockquote, cite {
 
 .wrap {
   max-width: 520px;
-  padding: 5rem 15% 3rem 15%;
+  padding: 5rem 15% 2.5rem 15%;
 }
 
 @media screen and (max-width: 900px) {
@@ -81,10 +81,15 @@ blockquote, cite {
   padding-top: 1.5em;
 }
 
+img.editorial{
+  margin-bottom: 1rem;
+}
+
+.end-mark{
+  margin-top: 3.5rem;
+}
 
 /* Typestyles */
-
-
 
 a, a:link {
   text-decoration: none;
@@ -111,6 +116,11 @@ a:hover {
 
 .h3, .fw600{
   font-weight: 600;
+}
+
+.footer p{
+  font-size: 15px;
+  line-height: 1.2rem;
 }
 
 /* Hanging or offset punctuation */
@@ -163,7 +173,6 @@ a:hover {
 
 img.editorial{
   max-width: 300px;
-  margin-bottom: 1.5rem;
 }
 
 img.rounded{
@@ -179,6 +188,5 @@ img.rounded{
   border-top: 1px solid rgba(0,0,0,0.25);
   border-bottom: 1px solid rgba(0,0,0,0.25);
 }
-
 
 
