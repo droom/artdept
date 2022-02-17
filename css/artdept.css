@@ -159,21 +159,20 @@ a:hover {
 
 
 
-
-
 /* Stylings */
 
 img.editorial{
   max-width: 300px;
   margin-bottom: 1.5rem;
 }
+
 img.rounded{
   border-radius: 2.5%;
 }
 
 .highlight{
-  background: rgb(255,250,0);
-  background: linear-gradient(148deg, rgba(255,250,0,0.5) 0%, rgba(255,250,0,0.3) 30%, rgba(255,250,0,0.2) 70%, rgba(255,250,0,0.4) 100%);
+  background: rgb(155,250,0);
+  background: linear-gradient(148deg, rgba(155,250,0,0.4) 0%, rgba(155,250,0,0.3) 20%, rgba(155,250,0,0.1) 70%, rgba(155,250,0,0.2) 100%);
 }
 
 .cta{
