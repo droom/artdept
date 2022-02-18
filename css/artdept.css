@@ -163,7 +163,7 @@ a:hover {
 }
 .quote:after {
     content: '\201D';
-    margin-left: -0.15em; 
+    margin-left: -0.25em; 
 }
 
 .tel:before{
