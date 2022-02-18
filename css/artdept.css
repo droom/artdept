@@ -27,6 +27,7 @@ blockquote, cite {
 .wrap {
   max-width: 520px;
   padding: 5rem 15% 2.5rem 15%;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 900px) {
@@ -34,7 +35,17 @@ blockquote, cite {
     padding: 4rem 4rem 3rem 4rem;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
+  .wrap {
+    padding: 3rem 3rem 2rem 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrap {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
   .wrap {
     padding: 1rem 1rem 1rem 1rem;
   }
