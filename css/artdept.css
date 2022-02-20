@@ -10,14 +10,18 @@ html{
 }
 
 body,
-h1, h2, h3, h4, h5, p, ul, li, a, 
+h1, h2, h3,
+p, ul, li, a, 
 blockquote, cite{
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, p, ul, li, a, 
-blockquote, cite {
+p,
+.h1, .h3,
+.list-item, 
+.quote, 
+.cite {
   font-size: 1rem;
   font-weight: 400;
 }
@@ -27,7 +31,6 @@ blockquote, cite {
 .wrap {
   max-width: 520px;
   padding: 5rem 15% 2.5rem 15%;
-  transition: all 0.3s ease;
 }
 
 /*@media screen and (max-width: 900px) {
@@ -38,6 +41,7 @@ blockquote, cite {
 @media screen and (max-width: 700px) {
   .wrap {
     padding: 2.5rem 3rem 2rem 3rem;
+
   }
 }
 @media screen and (max-width: 600px) {
@@ -48,6 +52,17 @@ blockquote, cite {
 @media screen and (max-width: 500px) {
   .wrap {
     padding: 0.8rem 1rem 0.8rem 1rem;
+
+
+  }
+  .h1{
+    font-size: 2rem;
+    line-height: 2.35rem;
+
+  }
+  header{
+    /*background: pink;*/
+    height: 70vh; 
   }
 }
 
@@ -208,4 +223,9 @@ img.rounded{
   border-bottom: 1px solid rgba(0,0,0,0.25);
 }
 
+
+::selection {
+  /*background: linear-gradient(148deg, rgba(155,250,0,0.4) 0%, rgba(155,250,0,0.1) 20%, rgba(155,250,0,0.25) 70%, rgba(155,250,0,0.2) 100%);*/
+background: rgba(155,250,0,0.22);
+}
 
