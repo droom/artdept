@@ -56,13 +56,13 @@ p,
 
   }
   .h1{
-    font-size: 2rem;
-    line-height: 2.35rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
 
   }
   header{
     /*background: pink;*/
-    height: 70vh; 
+    height: 50vh; 
   }
 }
 
