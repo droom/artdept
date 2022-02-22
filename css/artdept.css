@@ -26,22 +26,23 @@ p,
   font-weight: 400;
 }
 
-/* Layout */
 
+/* Layout */
 .wrap {
   max-width: 520px;
   padding: 5rem 15% 2.5rem 15%;
 }
+
 
 /*@media screen and (max-width: 900px) {
   .wrap {
     padding: 4rem 4rem 3rem 4rem;
   }
 }*/
+
 @media screen and (max-width: 700px) {
   .wrap {
     padding: 2.5rem 3rem 2rem 3rem;
-
   }
 }
 @media screen and (max-width: 600px) {
@@ -65,18 +66,18 @@ p,
   margin: 0 0 5rem 0;
 }
 .footer {
-  margin: 5rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 .cta{
   margin: 3.5rem 0 3.5rem 0;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 5rem 0;
 }
 
 @media screen and (max-width: 550px) {
   .cta{
-    /*margin: 3.5rem 0 3.5rem 0;*/
-    padding: 1rem 0 1rem 0;
+    margin: 3.5rem 0 3.5rem 0;
+    padding: 1rem 0 4rem 0;
   }
 }
 
