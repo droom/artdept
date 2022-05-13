@@ -32,11 +32,18 @@ img.atp {
     }
   }
 
-
 /* Text */
 
+@font-face {
+    font-family: 'tex_gyre_heros_cnregular';
+    src: url('../type/texgyreheroscn-regular-webfont.woff2') format('woff2'),
+         url('../type/texgyreheroscn-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .text {
-  font-family: "TeX Gyre Heros Cn", serif;
+  font-family: 'tex_gyre_heros_cnregular', serif;
   font-size: 50px;
   font-weight: 500;
   line-height: 55px;
