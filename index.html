@@ -7,23 +7,19 @@
     <meta name="description" content="Art Department is an independent graphic design practice.">
     <meta name="author" content="Chris Droom">
 
-    <link rel="stylesheet" href="css/artdept.css">
+    <!-- <link rel="stylesheet" href="css/artdept.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/splash.css">
+
 
     <link rel="icon" type="image/png" href="elements/16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="elements/32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="elements/96.png" sizes="96x96">
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGBC90M7MN"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-QGBC90M7MN');
-    </script>
 
     <!-- 
     There was a time on the internet when
@@ -59,67 +55,26 @@
 
   <body>
 
-    <div class="wrap">
+    <div class="grid">
+      <h1 class="h1 uc">Art Department</h1>
+      <div class="wrapper h1 uc">An experimental graphic design practice ✺ ✺ ✺ Identity and publication design ✺ across digital and print ✺ for cultural, community, and justice groups ✺ ✺ ✺</div><img class="atp" src="images/atp.jpg"/><a class="h1" href="enquiries@artdept.company">enquiries<span class="mail">@</span>artdept.company</a>
+    </div>
 
-    <header class="header">
-      <h1 class="h1"><span class="fw600">Art Department</span> is an 
-        experimental graphic design practice. We design identities 
-        and publications &mdash; across digital and print &mdash; 
-        for cultural, community, and justice groups.
-      </h1>
-    </header>
+  <!-- JS -->
+  <script src='js/gsap.min.js'></script>
+  <script src='js/SplitText3.min.js'></script>
+  <script src='js/ScrollTrigger.min.js'></script>
+  <script src="js/splash.js"></script>
 
-    <main class="main">
-
-      <h3 class="h3">Statement of intent</h3>
-
-      <ul class="list">
-        <li class="list-item">
-          <span class="highlight">
-          Deliver conceptually and visually strong client work,
-          drawing upon best practices from both service and 
-          commercial design, and grounded in academic theory.</span> 
-          We&rsquo;ll charge discounted rates for projects in 
-          which we can open-source components and methods
-        </li>
-
-        <li class="list-item">
-          Build a network of design educators &plus; practitioners 
-          from around the world. Co-create an expansive well-resourced 
-          environment, where visual communication can be explored 
-          through lenses of critical analysis and design history
-        </li>
-
-        <li class="list-item">
-          With a Level 3 <a href="https://www.cityandguilds.com/qualifications-and-apprenticeships/learning/teaching/6502-education-and-training#tab=information">
-          teaching qualification</a>, create learning materials and 
-          guided pathways into graphic design. Offer paid internships 
-          with clear and tailored objectives to those just starting out
-        </li>
-
-        <li class="list-item">Incorporate as a <a target="_blank" href="https://www.uk.coop/">co-operative</a> (ideally 3&ndash;5 members)</li>
-      </ul>
-      <section class="cta">
-        <p class="p"><span class="highlight">Please <a href="mailto:contact@artdept.company">get in touch</a> if you have a project</span> you'd like <span class="br-dt">to chat through, or for relevant work examples.</p>
-      </section>
-    </main>
-    
-    <footer class="footer">
-      <img src="images/zoo.jpg" class="editorial rounded"/>
-      <p>
-        <span class="fw600">Art Department</span><br/>
-        113-115 Fonthill Rd.<br/>
-        Finsbury Park<br/>
-        London N4 3HH
-      </p>
-      <p>
-        <span class="tel">44 &#40;0&#41;7522 532 192</span><br/>
-        <a href="mailto:contact@artdept.company"><span class="email">contact@artdept.company</a>
-      </p>
-    </footer>
-    <img src="images/logo-20.svg" class="end-mark"/>
-  </div>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGBC90M7MN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QGBC90M7MN');
+  </script>
 
 
-  </body>
+</body>
 </html>
