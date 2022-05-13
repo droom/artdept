@@ -22,13 +22,13 @@ body{
 /* Images */
 
 img.atp {
-  width: 250px;
+  width: 225px;
   margin: auto;
 }
 
 @media (max-width: 600px){
   img.atp {
-    width: 200px;
+    width: 180px;
     }
   }
 
@@ -59,9 +59,16 @@ img.atp {
 
 @media (max-width: 400px){
     .text {
-      font-size: 30px;
-      line-height: 35px;
+      font-size: 35px;
+      line-height: 40px;
     }
+}
+
+@media (min-width: 600px){
+  .br{
+    /*background: yellow;*/
+    display: block;
+  }
 }
 
 a {
