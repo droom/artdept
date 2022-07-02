@@ -1,0 +1,135 @@
+body {
+  background: #D9D9D9;
+  /*font-family: Georgia, "Lora", "PT Serif", serif;*/
+      /*font-family: 'Inter', sans-serif;*/
+
+    font-family:'Libre Baskerville', sans-serif;
+
+    /*font-family: 'Lora', serif;*/
+
+    /*font-family: 'PT Serif', serif;*/
+  /*font-family: "PT Serif", "Lora", serif;*/
+}
+
+/* Type */
+
+h1, h3, ul {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.title{
+  font-size: 2.6rem;
+  line-height: 3rem;
+  font-weight: 400;
+  font-family: 'futura';
+  margin: 40px 0 120px 0;
+}
+
+
+h3{
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+ul {
+  font-style: italic;
+  list-style: none;
+  margin: 60px 0;
+  padding: 0;
+  display: block;
+  line-height: 2rem;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li:after,
+li:before{
+  content: "—";
+  color: #C02E38;
+  padding: 0 2px;
+}
+
+/* Section */
+
+.landing {
+  background: #C02E38;
+  display: flex;
+  width: 100vw;
+  height: calc(100vh - 15px);
+}
+
+section.fold svg {
+  height: 10px;
+  margin: auto;
+  fill: #fff;
+}
+
+
+
+a{
+  color: #C02E38;
+}
+
+
+
+/* Hero */
+
+.hero {
+  width: 70%;
+  transition: 500ms ease all;
+  background: #D9D9D9;
+  margin: auto;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 4px 5px 15px -10px #000000
+}
+
+
+@media (max-width: 40em) {
+  .hero {
+    transform: rotate(-90deg);
+    width: 88%;
+    box-shadow: -5px 5px 5px -4px #000000
+
+  }
+}
+
+.fold {
+  background: #C02E38;
+  width: 100wv;
+  height: 10px;
+  display: flex;
+}
+
+.notch {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  background: blue;
+}
+
+
+.signup {
+  width: 100vw;
+  height: 50vh;
+  background: #D9D9D9;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.signup .inner {
+  /*padding: 30px;*/
+  width: 70vw;
+  padding: 20px 0;
+  margin: 50px auto;
+  border-right: 1px solid #C02E38;
+  border-left: 1px solid #C02E38;
+
+}
